@@ -1,0 +1,94 @@
+.section{
+    padding:40px 0;
+}
+.final-price {
+    background-color: #d32F2f;
+    padding: 30px;
+    width: 100%;
+    display: inline-block;
+}
+.actual-amount {
+    color: #ffffff;
+    float: left;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.actual-amount:after {
+    background: #bfbfbf;
+    content: '';
+    height: 1px;
+    left: 0px;
+    position: absolute;
+    top: 9px;
+    width: 100%;
+}
+.dicount-amount {
+    color: #f2ac3e;
+    font-size: 14px;
+    font-weight: 700;
+}
+.count-textbox {
+    color:#fff;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: #d32F2f;
+    border: none;
+}
+.product-count {
+    position: absolute;
+    right: 40px;
+    top: 0;
+    border-left: 1px solid #fff;
+}
+.price {
+    position: relative;
+}
+.minus-button {
+    top: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    width: 40px;
+    left: 80px;
+    height: 40px;
+    background-color: #d32F2f;
+    border: none;
+    color: #fff;
+}
+.minus-button:focus {
+    outline: none;
+}
+.plus-button {
+    bottom: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    width: 40px;
+    left: 80px;
+    height: 40px;
+    background-color: #d32F2f;
+    border: none;
+    color: #fff;
+}
+.plus-button:after {
+    background: #dcdddd;
+    content: '';
+    height: 1px;
+    width: 20px;
+    left: 9px;
+    position: absolute;
+    bottom: 0;
+}
+.plus-button:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
